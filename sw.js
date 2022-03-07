@@ -21,6 +21,6 @@ self.addEventListener('push', function(e) {
         ]
     };
     e.waitUntil(
-        self.registration.sendNofitication('test message', options)
+        self.registration.showNofitication('test message', options)
     );
 });
